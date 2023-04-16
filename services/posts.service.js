@@ -1,6 +1,6 @@
 const getPosts = async (filter = null) => {
   let posts = [];
-  await fetch("/FinalProyect/TP-UTN-2023/mocks/products.json")
+  await fetch("/TP-UTN-2023/mocks/products.json")
     .then((res) => res.json())
     .then(res => {
         if(filter === null){

@@ -10,7 +10,7 @@ form.onsubmit = (e) => {
   }
   else{
     localStorage.setItem("Name", inputName.value);
-    window.open("/FinalProyect/TP-UTN-2023/pages/home/home.html", "_self");
+    window.open("/TP-UTN-2023/pages/home/home.html", "_self");
   }
 };
 
