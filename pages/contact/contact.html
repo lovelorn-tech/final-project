@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/a450a5d4a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./contact.style.css" />
+  </head>
+  <body>
+    <span id="header-container"></span>
+    <main class="main" id="main-contact">
+      <span class="form-container">
+        <form id="form">
+          <p>Contacto</p>
+
+          <div class="form-divisor">
+            <div class="form-divisor-left">
+              <div class="input-container">
+                <label for="input-name" class="form-label">Nombre completo</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="input-name"
+                  id="input-name"
+                  aria-describedby="nameHelpId"
+                  placeholder="Nombre completo"
+               
+                />
+                <small id="nameHelpId" class="form-text text-muted"
+                  >Tu nombre permanecerá siempre privado</small
+                >
+              </div>
+
+              <div class="input-container">
+                <label for="input-email" class="form-label"
+                  >Correo electrónico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  name="input-email"
+                  id="input-email"
+                  aria-describedby="emailHelpId"
+                  placeholder="correo@ejemplo.com"
+       
+                />
+                <small id="emailHelpId" class="form-text text-muted"
+                  >No compartiremos tu correo con nadie</small
+                >
+              </div>
+            </div>
+            <textarea id="input-text" class="textarea" placeholder="Escribí tu mensaje acá"></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+
+          <p id="error-msg"></p>
+        </form>
+      </span>
+    </main>
+    <span id="footer-container"></span>
+    <script type="module" src="./contact.script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+@import "/FinalProyect/TP-UTN-2023/styles/global.css";
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 56.25rem;
+    width: 90%;
+    height: 50%;
+    border-radius: 0.625rem;
+    background-image: linear-gradient(to left, hsla(198, 0%, 25%, 0.7), hsla(198, 0%, 50%, 0.5));
+}
+
+.modal > p{
+    color: var(--light);
+    font-size: 2em;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+.modal > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0.625rem 0;
+}
+
+.modal form > label{
+    color: var(--light);
+    font-size: 0.75em;
+    font-family: "Gilroy-Regular", sans-serif;
+    padding: 0.3125em 0;
+}
+
+.modal form > input{
+    color: var(--light);
+    font-size: 1em;
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em;
+    margin: 0.3125rem 0;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 0.0625rem solid var(--light);
+}
+
+.modal form > input:focus{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+.modal form > input::placeholder{
+    color: var(--light);
+}
+
+.modal form > button{
+    font-size: 1em;
+    color: var(--light);
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em 0;
+    margin: 0.625rem 0;
+    background: none;
+    border: 0.0625rem solid var(--light);
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.modal form > button:hover{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+#error-msg{
+    display: none;
+    color: var(--primary);
+    font-size: 1em;
+    text-shadow: 0 0 0.3125em var(--primary);
+    padding: 0.3125em;
+    border-radius: 0.625rem;
+    background-color: hsla(198, 0%, 30%, 0.7);
+}

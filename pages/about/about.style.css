@@ -1,0 +1,24 @@
+@import "/FinalProyect/TP-UTN-2023/styles/generalPages.css";
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    max-width: 56.25rem;
+}
+
+.about-container > h2{
+    font-size: 2em;
+    color: var(--light);
+    font-family: "Gilroy-Bold", sans-serif;
+    padding: 0.3125em 0;
+}
+
+.about-container > p{
+    font-size: 1em;
+    color: var(--light-gray);
+    font-family: "Gilroy-Regular", sans-serif;
+    padding: 0.3125em 0;
+}

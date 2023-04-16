@@ -1,0 +1,77 @@
+@import "/FinalProyect/TP-UTN-2023/styles/global.css";
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.125rem;
+  background-color: var(--dark);
+}
+
+.title {
+  font-size: 1em;
+  color: var(--light);
+  font-family: "Gilroy-Bold", sans-serif;
+  padding: 0 0.3125em;
+  margin: 0 0.3125rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 3.125rem;
+  max-width: 56.25rem;
+}
+
+ul > li {
+  list-style: none;
+  margin: 0 0.625rem;
+}
+
+ul > li > a {
+  text-decoration: none;
+  font-size: 1em;
+  color: var(--light);
+  font-family: "Gilroy-Medium", sans-serif;
+  padding: 0 0.3125em;
+}
+
+ul > li > a:hover {
+  transition: 0.3s;
+  color: var(--primary);
+}
+
+.header-menu{
+  display: none;
+  font-size: 1em;
+  color: var(--light);
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background: none;
+  border: none;
+  border-radius: 3.125rem;
+  margin: 0 0.625rem;
+  cursor: pointer;
+}
+
+.header-menu:hover{
+  transition: 0.3s;
+  background-color: var(--dark-gray);
+}
+
+@media(max-width: 980px){
+  .title, ul > li > a {
+    font-size: 0.75em;
+  }
+}
+
+@media(max-width: 768px){
+  ul{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+  }
+}

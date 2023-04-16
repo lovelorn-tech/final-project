@@ -1,0 +1,58 @@
+@import "/FinalProyect/TP-UTN-2023/styles/global.css";
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0.625rem;
+    width: 16rem;
+    height: 19rem;
+    background-color: hsla(198, 0%, 25%, 0.7);
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.post:hover{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 35%, 0.7);
+}
+
+.post-image-container{
+    width: 100%;
+    height: 16rem;
+    overflow: hidden;
+}
+.post-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-image-container img:hover{
+    transition: 0.3s;
+    width: 110%;
+    height: 110%;
+    filter: brightness(80%);
+}
+
+.post-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.post-info > p{
+    font-size: 1rem;
+}
+
+.post-name{
+    font-family: "Gilroy-Medium", sans-serif;
+    color: var(--light);
+}
+.post-data{
+    color: var(--light-gray);
+    font-family: "Gilroy-Regular", sans-serif;
+}
+

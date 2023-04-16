@@ -1,0 +1,141 @@
+@import "/FinalProyect/TP-UTN-2023/styles/generalPages.css";
+
+.form-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.form-container > form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 56.25rem;
+    width: 90%;
+    height: 60%;
+    border-radius: 0.625rem;
+    background-image: linear-gradient(to left, hsla(198, 0%, 25%, 0.8), hsla(198, 0%, 40%, 0.7));
+}
+
+.form-container > form > p{
+    font-size: 2em;
+    color: var(--light);
+    font-family: "Gilroy-Bold", sans-serif;
+    padding: 0.625em 0;
+}
+
+.form-divisor{
+    width: calc(100% - 1rem);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.form-divisor-left{
+    width: 40%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.625rem 0;
+}
+
+.input-container > label{
+    font-size: 1em;
+    color: var(--light);
+    font-family: "Gilroy-Bold", sans-serif;
+    padding: 0.3125em 0;
+}
+
+.input-container > input{
+    color: var(--light);
+    font-size: 1em;
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em;
+    margin: 0.3125rem 0;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 0.0625rem solid var(--light);
+}
+
+.input-container > input:focus{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+.input-container > input::placeholder{
+    color: var(--light);
+}
+
+.input-container > small{
+    font-size: 0.75em;
+    color: var(--light);
+    font-family: "Gilroy-REgular", sans-serif;
+    padding: 0.3125em 0;
+}
+
+.textarea{
+    resize: none;
+    width: 50%;
+    border-radius: 0.3125rem;
+    background-color: var(--light-gray);
+    font-size: 1em;
+    color: var(--dark);
+    font-family: "Gilroy-REgular", sans-serif;
+    padding: 0.3125em;
+    outline: none;
+}
+
+form > button{
+    font-size: 1.125em;
+    color: var(--light);
+    font-family: "Gilroy-Medium", sans-serif;
+    padding: 0.3125em;
+    margin: 0.625rem 0;
+    background: none;
+    border: 0.0625rem solid var(--light);
+    border-radius: 0.625rem;
+    width: 50%;
+    cursor: pointer;
+}
+
+form > button:hover{
+    transition: 0.3s;
+    background-color: hsla(198, 0%, 40%, 0.5);
+}
+
+#error-msg{
+    display: none;
+    color: var(--primary);
+    font-size: 1em;
+    text-shadow: 0 0 0.3125em var(--primary);
+    padding: 0.3125em;
+    border-radius: 0.625rem;
+    background-color: hsla(198, 0%, 30%, 0.7);
+}
+
+@media (max-width: 768px){
+    .form-container > form{
+        height: 80%;
+    }
+    .form-divisor{
+        flex-direction: column;
+    }
+    .form-divisor-left{
+        width: 100%;
+    }
+    .textarea{
+        width: calc(100% - 1rem);
+        height: 9em;
+    }
+}

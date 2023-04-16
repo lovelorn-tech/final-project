@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+:root {
+  --dark: hsla(198, 0%, 12%, 1);
+  --dark-gray: hsla(198, 0%, 18%, 1);
+  --light: hsla(198, 0%, 83%, 1);
+  --light-gray: hsla(198, 0%, 77%, 1);
+  --primary: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  min-height: 100vh;
+  background-image: url("/FinalProyect/TP-UTN-2023/assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
