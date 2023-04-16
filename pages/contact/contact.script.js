@@ -36,6 +36,7 @@ form.onsubmit = (e) => {
     errorMsg.style.display = "block";
     return;
   }
+  //TODO: Send message to email
 };
 
 setContactPage();

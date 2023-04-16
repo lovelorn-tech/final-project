@@ -2,8 +2,9 @@
 
 .main{
     padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
     width: 100%;
-    height: calc(100vh - 3.125rem);
+    min-height: calc(100vh - 6.25rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

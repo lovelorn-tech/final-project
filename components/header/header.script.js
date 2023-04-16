@@ -4,7 +4,7 @@ const getHeader = async () => {
     .then((res) => res.text())
     .then((res) => (header = res))
     .catch(console.log);
-  header = header.replace("NAME", sessionStorage.getItem("Name"));
+  header = header.replace("NAME", localStorage.getItem("Name"));
   return header;
 };
 
