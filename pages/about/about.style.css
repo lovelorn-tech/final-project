@@ -1,5 +1,10 @@
 @import "/TP-UTN-2023/styles/generalPages.css";
 
+
+#main-about{
+    background-color: hsla(333, 0%, 20%, 0.5);
+}
+
 .about-container{
     display: flex;
     flex-direction: column;
@@ -14,6 +19,7 @@
     color: var(--light);
     font-family: "Gilroy-Bold", sans-serif;
     padding: 0.3125em 0;
+    text-shadow: 0 0 0.3125em var(--light);
 }
 
 .about-container > p{
