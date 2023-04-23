@@ -1,120 +1,120 @@
 [
     {
         "id": 1,
-        "image": "product3.png",
-        "name": "Cerveza 1",
+        "image": "product19.jpg",
+        "name": "Corona",
         "price": 18000,
         "stock": 12,
         "type": "Cerveza"
     },
     {
         "id": 2,
-        "image": "product1.jpg",
-        "name": "Gaseosa 1",
+        "image": "product5.png",
+        "name": "Fanta",
         "price": 38500,
         "stock": 4,
         "type": "Gaseosa"
     },
     {
         "id": 3,
-        "image": "product3.png",
-        "name": "Cerveza 3",
+        "image": "product20.jpg",
+        "name": "Brahma",
         "price": 25000,
         "stock": 11,
         "type": "Cerveza"
     },
     {
         "id": 4,
-        "image": "product2.jpg",
-        "name": "Vino 4",
+        "image": "product9.jpg",
+        "name": "Michel Torino",
         "price": 33000,
         "stock": 37,
         "type": "Vino"
     },
     {
         "id": 5,
-        "image": "product1.jpg",
-        "name": "Gaseosa 5",
+        "image": "product7.jpeg",
+        "name": "Cocacola",
         "price": 28000,
         "stock": 14,
         "type": "Gaseosa"
     },
     {
         "id": 6,
-        "image": "product2.jpg",
-        "name": "Vino 6",
+        "image": "product10.jpg",
+        "name": "Valderrobles",
         "price": 19000,
         "stock": 44,
         "type": "Vino"
     },
     {
         "id": 7,
-        "image": "product3.png",
-        "name": "Cerveza 7",
+        "image": "product18.jpeg",
+        "name": "Quilmes",
         "price": 12000,
         "stock": 50,
         "type": "Cerveza"
     },
     {
         "id": 8,
-        "image": "product1.jpg",
-        "name": "Gaseosa 8",
+        "image": "product8.jpg",
+        "name": "Cocala Zero",
         "price": 45000,
         "stock": 24,
         "type": "Gaseosa"
     },
     {
         "id": 9,
-        "image": "product1.jpg",
-        "name": "Gaseosa 9",
+        "image": "product13.jpg",
+        "name": "Pepsi",
         "price": 22000,
         "stock": 6,
         "type": "Gaseosa"
     },
     {
         "id": 10,
-        "image": "product4.jpg",
-        "name": "Licor 10",
+        "image": "product14.jpg",
+        "name": "Smirnoff",
         "price": 34000,
         "stock": 12,
         "type": "Licor"
     },
     {
         "id": 11,
-        "image": "product2.jpg",
-        "name": "Vino 11",
+        "image": "product11.jpg",
+        "name": "Termidor",
         "price": 43000,
         "stock": 42,
         "type": "Vino"
     },
     {
         "id": 12,
-        "image": "product4.jpg",
-        "name": "Licor 12",
+        "image": "product15.jpg",
+        "name": "Cusenier Dulce de Leche",
         "price": 26000,
         "stock": 13,
         "type": "Licor"
     },
     {
         "id": 13,
-        "image": "product3.png",
-        "name": "Cerveza 13",
+        "image": "product17.jpeg",
+        "name": "Stella Artois",
         "price": 18000,
         "stock": 59,
         "type": "Cerveza"
     },
     {
         "id": 14,
-        "image": "product2.jpg",
-        "name": "Vino 14",
+        "image": "product12.jpeg",
+        "name": "Chandon",
         "price": 28000,
         "stock": 11,
         "type": "Vino"
     },
     {
         "id": 15,
-        "image": "product4.jpg",
-        "name": "Licor 15",
+        "image": "product16.jpg",
+        "name": "Tres Plumas",
         "price": 40000,
         "stock": 12,
         "type": "Licor"
